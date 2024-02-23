@@ -1,0 +1,10 @@
+
+.banner {
+    background-color: #0B142F;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    color: white;
+}

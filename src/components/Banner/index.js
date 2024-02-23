@@ -7,8 +7,13 @@ const Banner = () => {
 
             </nav>
 
+            <section className='container_text'>
+
+                
+
+            <div className='text'>           
             <h1>
-                What is Carlio and
+                What is Carlio and <br/>
                 how valid is it ?
             </h1>            
             <p>
@@ -18,8 +23,18 @@ const Banner = () => {
              of experience in the oil and petrochemical industry.
             </p>
 
-            <a href="#">Buy Products</a>
-            <a href="#">Contact Us</a>
+            </div>
+
+            <div className='btn'>
+
+            <a className='buy-btn' href="#">Buy Products</a>
+            <a className='contact-btn' href="#">Contact Us</a>
+
+            </div>
+
+            
+
+            </section>
         </header>
     
     )

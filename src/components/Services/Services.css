@@ -1,0 +1,10 @@
+.services {
+border-radius: 8px;
+background: linear-gradient(0deg, rgba(11, 20, 47, 0.90) 0%, rgba(11, 20, 47, 0.90) 100%), lightgray 50% / cover no-repeat;
+
+}
+
+small {
+    color: #fff;
+}
+

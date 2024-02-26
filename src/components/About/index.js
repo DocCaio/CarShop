@@ -28,7 +28,7 @@ const About = () => {
             <a href="#">Our team</a>
             </div>
 
-            <div>
+            <div className='learn'>
                 <p>
                     The meaning of production in Carlio is the creation, development,
                      and the path to progress, and the starting point to achieve the 
@@ -37,7 +37,8 @@ const About = () => {
                        started our activities in the field of design, engineering, construction
                         of refinery equipment, and the production of various motor and industrial
                          lubricants in the year 1390 (2011)
-                         </p>
+                    </p>
+                    <a href="#">Learn More</a>  
             </div>
 
             </section>

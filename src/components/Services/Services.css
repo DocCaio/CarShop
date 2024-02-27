@@ -1,10 +1,29 @@
 .services {
 border-radius: 8px;
+padding: 50px 16px;
 background: linear-gradient(0deg, rgba(11, 20, 47, 0.90) 0%, rgba(11, 20, 47, 0.90) 100%), lightgray 50% / cover no-repeat;
 
 }
 
 small {
     color: #fff;
+}
+
+.services h2 {
+    color:white;
+    font-family: var(--font);
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.visit-btn {
+    font-family: var(--font-btn);
+    font-weight: 500;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    text-decoration: none;
 }
 

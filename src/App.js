@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import About from './components/About';
 import Services from './components/Services';
 import Questions from './components/Questions';
+import Brands from './components/Brands';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About/>
       <Services/>
       <Questions/>
+      <Brands/>
       
       
     </div>

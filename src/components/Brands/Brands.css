@@ -1,0 +1,29 @@
+span {
+    color: var(--Black---White-Gray70, #757575);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 151.523%; /* 27.274px */
+}
+
+.cars {
+    display: flex;
+    padding: 0px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    align-self: stretch;
+}
+
+.brands {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 28px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #000 0%, #000 100%),lightgray 50% / cover no-repeat;
+background-blend-mode: color, normal;
+
+}

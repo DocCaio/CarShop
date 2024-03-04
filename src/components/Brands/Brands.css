@@ -18,8 +18,8 @@ line-height: 151.523%; /* 27.274px */
 
 .brands {
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    
     padding: 28px;
     justify-content: center;
     align-items: center;

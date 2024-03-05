@@ -3,6 +3,8 @@ import Banner from './components/Banner';
 import About from './components/About';
 import Services from './components/Services';
 import Questions from './components/Questions';
+import Contacts from './components/Contacts';
+
 
 
 
@@ -14,8 +16,8 @@ function App() {
       <Banner/>
       <About/>
       <Services/>
-      <Questions/>
-      
+      <Questions/>   
+      <Contacts/>   
       
       
       

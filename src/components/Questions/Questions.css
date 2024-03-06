@@ -35,6 +35,8 @@
   
   .container .item.active {
     background-image: url('/public/img/minus.svg');
+    background-repeat: no-repeat;
+    
   }
   
   .item .question {
@@ -60,16 +62,4 @@
   }
   
   
-  @media (max-width: 375px) {
-    body {
-        background-image: url('/public/img/minus.svg') !important;
-    }
   
-    .container {
-        max-width: 280px;
-    }
-  
-    .item .question {
-        max-width: 230px;
-    }
-  }

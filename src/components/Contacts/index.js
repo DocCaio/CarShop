@@ -18,6 +18,14 @@ const Contacts = () => {
                 <img  src="./img/social-media/whatsapp.svg" alt="foto de um carro"/>
                 <img  src="./img/social-media/x.svg" alt="foto de um carro"/>
             </div>
+            <div className='sms'>
+            <img  src="./img/footer/sms.svg" alt="foto de um carro"/>
+            <span className='sms_email'>
+                <h3>Enter Your Email</h3>
+                <span>Our colleagues will contact you soon</span>
+            </span>
+            <input className='submit' type="text"></input>
+            </div>
             </section>    
         </footer>
     )

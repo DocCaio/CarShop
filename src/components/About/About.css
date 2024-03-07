@@ -10,8 +10,8 @@
     padding: 2rem;
 }
 
-.main-car {
-    width: 30%;
+.main-car {  
+    width: 100%;   
 }
 
 .about_us h2 {
@@ -23,7 +23,7 @@
 }
 
 p {
-    width: 30%;
+    width: 100%;
     color: #666C89;
     font-family: var(--font);
     font-size: 16px;
@@ -45,7 +45,7 @@ p {
     text-decoration: none;
     padding: 16px 24px;
     border-radius: 4px;
-    background: rgba(232, 232, 232, 0.50);
+    background: rgba(232, 232, 232, 0.50);    
 }
 
 .links a:nth-child(1) {

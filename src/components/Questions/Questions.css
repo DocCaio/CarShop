@@ -1,5 +1,5 @@
 .large {
-    width: 587px;
+    width: 100%;
     border-radius: 10px;    
 }
 
@@ -15,6 +15,7 @@
     max-width: 520px;    
     border-radius: 10px;
     padding: 40px;
+    
   }
 
   .title {
@@ -30,7 +31,7 @@
     background-repeat: no-repeat;
     background-position:right 0 top;
     cursor: pointer;
-    border-bottom: 1px solid hsl(275, 100%, 97%);
+    border-bottom: 1px solid hsl(275, 100%, 97%);    
   }
   
   .container .item.active {

@@ -8,6 +8,11 @@
 }
 
 .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
 border-radius: 8px;
 padding: 50px 16px;
 background: linear-gradient(0deg, rgba(11, 20, 47, 0.90) 0%, rgba(11, 20, 47, 0.90) 100%), lightgray 50% / cover no-repeat;

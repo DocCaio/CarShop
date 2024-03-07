@@ -16,9 +16,8 @@ function App() {
       <Banner/>
       <About/>
       <Services/>
-      <Questions/>   
-      <Contacts/>   
-      
+      <Questions/>     
+      <Contacts/>        
       
       
       

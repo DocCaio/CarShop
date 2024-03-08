@@ -31,10 +31,10 @@ const Banner = () => {
             <a className='contact-btn' href="#">Contact Us</a>
 
             </div>
-
             
 
             </section>
+            
         </header>
     
     )

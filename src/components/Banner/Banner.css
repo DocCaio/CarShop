@@ -67,3 +67,10 @@
     border: 1px solid #E2E8F0;
     text-decoration: none;
 }
+
+@media (min-width: 1440px) {
+    .container_text {
+        display: flex;
+    }
+    
+    }

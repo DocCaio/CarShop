@@ -10,8 +10,8 @@
     padding: 2rem;
 }
 
-.main-car {  
-    width: 100%;   
+.main-car {
+    width: 100%;
 }
 
 .about_us h2 {
@@ -45,7 +45,7 @@ p {
     text-decoration: none;
     padding: 16px 24px;
     border-radius: 4px;
-    background: rgba(232, 232, 232, 0.50);    
+    background: rgba(232, 232, 232, 0.50);
 }
 
 .links a:nth-child(1) {
@@ -69,6 +69,13 @@ p {
 @media (min-width: 1440px) {
     .main-car {
         width: 30%;
-    }   
     }
 
+    .about {
+        display: flex;
+    }
+
+  
+
+ 
+}

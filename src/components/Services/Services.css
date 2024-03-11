@@ -13,9 +13,9 @@
     align-items: center;
     text-align: start;
     flex-direction: column;
-border-radius: 8px;
-padding: 50px 16px;
-background: linear-gradient(0deg, rgba(11, 20, 47, 0.90) 0%, rgba(11, 20, 47, 0.90) 100%), lightgray 50% / cover no-repeat;
+    border-radius: 8px;
+    padding: 50px 16px;
+    background: linear-gradient(0deg, rgba(11, 20, 47, 0.90) 0%, rgba(11, 20, 47, 0.90) 100%), lightgray 50% / cover no-repeat;
 
 }
 
@@ -24,7 +24,7 @@ small {
 }
 
 .services h2 {
-    color:white;
+    color: white;
     font-family: var(--font);
     font-size: 35px;
     font-weight: 600;
@@ -53,11 +53,34 @@ small {
 .cards h3 {
     color: #FFF;
 
-text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.46);
-font-family: var(--font);
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 151.523%; /* 36.365px */
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.46);
+    font-family: var(--font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%;
+    /* 36.365px */
 }
 
+@media (min-width: 1440px) {
+
+    .services_main {
+        display: flex;
+    }
+
+    h2 {
+        width: 55%;
+    }
+
+
+
+    .cards {
+        display: flex;
+        gap: 16px;
+    }
+
+
+
+
+
+}

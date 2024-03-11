@@ -5,15 +5,21 @@ const Services = () => {
 
       
             <section className='services'>
+
+                <div className='services_main'>
+
+               
                 <div>
+                   
                 <img className='box' src="./img/box.svg" alt="foto de um carro"/>
-                 <small>Products features</small>
-                
+                 <small>Products features</small>              
 
                 
                     <h2>The feature of Carlio engine oil that you will benefit from</h2>
                     <a className='visit-btn' href="#">Visit shop page</a>
                 </div>
+
+                
 
                 <div className='cards'>
 
@@ -29,6 +35,8 @@ const Services = () => {
                 <div  className='cards_benefit'>
                 <img src="./img/security.svg" alt="security shild"/>
                 <h3>Engine protection</h3>
+                </div>
+
                 </div>
 
                 </div>

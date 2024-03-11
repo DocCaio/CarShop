@@ -6,6 +6,7 @@
 
 }
 
+
 .about {
     padding: 2rem;
 }
@@ -22,8 +23,7 @@
     text-transform: capitalize;
 }
 
-p {
-    width: 100%;
+p {    
     color: #666C89;
     font-family: var(--font);
     font-size: 16px;
@@ -53,7 +53,7 @@ p {
     background: var(--Primary-Main, #AA205E);
 }
 
-.learn a {
+.learn_btn {
     border-radius: 4px;
     background: #091242;
     padding: 16px 24px;
@@ -64,17 +64,28 @@ p {
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
+
+
 }
 
 @media (min-width: 1440px) {
 
     .main-car {
-        width: 30%;
+        min-width: 30%;
     }
 
-    
+    .about {
+        display: flex;
+        justify-content: space-between;
+        
+       
+    }
 
+    p {
+       max-width: 40%;
+    }
 
+ 
 
 
 

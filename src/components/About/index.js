@@ -5,10 +5,13 @@ const About = () => {
 
         <main>
             <section className='about'>
+           
+          <figure className='main-car'>
 
-            <img className='main-car' src="./img/main-car.png" alt="foto de um carro"/>
+            <img src="./img/main-car.png" alt="foto de um carro"/>
             
-            
+        </figure > 
+
             <div className='about_us'>
             <img className='component' src="./img/component.svg" alt="foto de um carro"/>
             <small>About us</small>
@@ -22,7 +25,7 @@ const About = () => {
                    and products of the Carlio brand,
                    you can use the following buttons:
                  </p>
-            </div>
+            
 
             <div className='links'>
             <a href="#">Company</a>  
@@ -30,7 +33,7 @@ const About = () => {
             <a href="#">Our team</a>
             </div>
 
-            <div className='learn'>
+          
                 <p>
                     The meaning of production in Carlio is the creation, development,
                      and the path to progress, and the starting point to achieve the 
@@ -40,9 +43,14 @@ const About = () => {
                         of refinery equipment, and the production of various motor and industrial
                          lubricants in the year 1390 (2011)
                     </p>
-                    <a href="#">Learn More</a>  
-            </div>
 
+                    <div className='learn'>
+
+                    <a className='learn_btn' href="#">Learn More</a>  
+
+                    </div>
+           
+                    </div>
             
 
             </section>

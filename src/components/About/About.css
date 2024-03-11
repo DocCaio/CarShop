@@ -67,13 +67,20 @@ p {
 }
 
 @media (min-width: 1440px) {
+
     .main-car {
         width: 30%;
     }
 
-    .about {
-        display: flex;
-    }  
+    
 
- 
+
+
+
+
+
+
+
+
+
 }

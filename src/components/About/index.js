@@ -5,7 +5,9 @@ const About = () => {
 
         <main>
             <section className='about'>
+
             <img className='main-car' src="./img/main-car.png" alt="foto de um carro"/>
+            
             
             <div className='about_us'>
             <img className='component' src="./img/component.svg" alt="foto de um carro"/>
@@ -40,6 +42,8 @@ const About = () => {
                     </p>
                     <a href="#">Learn More</a>  
             </div>
+
+            
 
             </section>
         </main>

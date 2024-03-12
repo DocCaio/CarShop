@@ -4,18 +4,23 @@
 }
 
 .small {     
-    width: 270px;
+    min-width: 270px;
     border-radius: 10px;
     border: 12px solid #FFF;
     background: lightgray 50% / cover no-repeat, #D9D9D9;
 }
 
 .container {
-    background-color: hsl(0, 0%, 100%);
-    max-width: 520px;    
+    background-color: hsl(0, 0%, 100%);        
     border-radius: 10px;
-    padding: 40px;
+    padding: 40px;     
     
+  }
+
+  
+
+  .card {
+    width:100%;  
   }
 
   .title {
@@ -61,6 +66,28 @@
   .item.active .answer {
     display: block;
   }
+
+  @media (min-width: 1440px) {
+
+
+  .container_main {
+    display: flex; 
+    justify-content: space-around;    
+    gap: 1rem; 
+  }
+
+  .card {
+    width: 32.5rem;
+  }
   
+ 
+
+  .answer {
+    min-width: 50%;
+  }
+
+
+  
+}
   
   

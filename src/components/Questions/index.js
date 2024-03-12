@@ -22,10 +22,14 @@ const Questions = () => {
     return (
 
             <section className='container'>
+
+                <div className='container_main'>
                 <div>
                  <img className='large' src="./img/LargePhoto.png" alt="foto de um carro"/>
-                 <img className='small' src="./img/SmallPhoto.png" alt="foto de um carro"/>
+              
                  </div>
+
+                 <div className='card'>
 
                  <div className='title'>
                  <img  src="./img/message-question.svg" alt="foto de um carro"/>
@@ -70,6 +74,10 @@ const Questions = () => {
             <p class="answer">
                 Existem varios lugares como front mentor , alura challenger, curso em video ,etc
             </p>
+        </div>
+
+        </div>
+
         </div>
             </section>
         

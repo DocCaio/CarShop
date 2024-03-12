@@ -4,7 +4,7 @@ import './Contacts.css';
 const Contacts = () => {
     return (
         <footer className='footer'> 
-        <section>   
+        <section className='footer_media'>   
             <div>
             <img className='logo'  src="./img/logo.png" alt="foto de um carro"/>
                 <p>
@@ -28,10 +28,14 @@ const Contacts = () => {
 
             <div className='input'>
             <input className='submit' type="text" placeholder='Enter Email'></input>
+         
             <img className='arrow'  src="./img/footer/arrow-right.svg" alt="foto de um carro"/>
+           
             </div>
 
             </div>
+
+        
             <div className='list'>
                 <h4>Product Category</h4>
                 <ul>
@@ -69,14 +73,17 @@ const Contacts = () => {
                  Allure tower, unit:384 Avcilar/Istanbul
                 </span>               
             </div>
-            <div>
+          
+         
+            </section>   
+
+            <div className='rights'>
                 <p>©| All Rights Reserved | Powered by Caio Design Department</p>
             </div>
 
-            <div className='photo'>
+               <div className='photo'>
             <img   src="./img/footer/copy-right.svg" alt="foto de um carro"/>
-            </div>
-            </section>    
+            </div> 
         </footer>
     )
 

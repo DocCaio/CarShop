@@ -3,9 +3,11 @@ import './Contacts.css';
 
 const Contacts = () => {
     return (
-        <footer className='footer'> 
-        <section className='footer_media'>   
-            <div>
+
+        <footer className='footer'>
+        <section className='footer_media'>
+
+            <div className='media'>      
             <img className='logo'  src="./img/logo.png" alt="foto de um carro"/>
                 <p>
                 Our activities in the oil and petrochemical sector,
@@ -17,10 +19,11 @@ const Contacts = () => {
                 <img className='social_media'  src="./img/social-media/instagram.svg" alt="foto de um carro"/>
                 <img className='social_media'  src="./img/social-media/whatsapp.svg" alt="foto de um carro"/>
                 <img className='social_media'  src="./img/social-media/x.svg" alt="foto de um carro"/>
-            </div>
-            <div className='sms'>
-            <img className='sms_img'  src="./img/footer/sms.svg" alt="foto de um carro"/>
-            <span className='sms_email'>
+                </div>
+
+                <div className='email'>
+                <img className='email_img'  src="./img/footer/sms.svg" alt="foto de um carro"/>
+            <span className='email_sms'>
             
                 <h3>Enter Your Email</h3>
                 <span>Our colleagues will contact you soon</span>
@@ -30,13 +33,15 @@ const Contacts = () => {
             <input className='submit' type="text" placeholder='Enter Email'></input>
          
             <img className='arrow'  src="./img/footer/arrow-right.svg" alt="foto de um carro"/>
-           
-            </div>
 
-            </div>
 
-        
-            <div className='list'>
+         </div>
+
+         </div>
+
+
+
+         <div className='list'>
                 <h4>Product Category</h4>
                 <ul>
                     <li>
@@ -75,7 +80,7 @@ const Contacts = () => {
             </div>
           
          
-            </section>   
+            
 
             <div className='rights'>
                 <p>©| All Rights Reserved | Powered by Caio Design Department</p>
@@ -84,6 +89,8 @@ const Contacts = () => {
                <div className='photo'>
             <img   src="./img/footer/copy-right.svg" alt="foto de um carro"/>
             </div> 
+
+        </section>
         </footer>
     )
 

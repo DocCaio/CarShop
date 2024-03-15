@@ -7,13 +7,13 @@
 }
 
 
-.about {
+.main {
+    display: flex;
+    justify-content: space-around;
     padding: 2rem;
 }
 
-.main-car {
-    max-width: 30%;
-}
+
 
 .about_us h2 {
     color: var(--Black);
@@ -70,19 +70,19 @@ p {
 
 @media (min-width: 1440px) {
 
-    .main-car {
-        min-width: 30%;
-    }
+   
 
-    .about {
+    .main {
         display: flex;
         justify-content: space-between;
+        align-items: center;        
         
        
     }
 
-    p {
-       max-width: 40%;
+    .about_us p {
+     
+       width: 40%;
     }
 
  

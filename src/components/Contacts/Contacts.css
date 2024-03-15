@@ -80,10 +80,11 @@ span {
 
 @media (min-width: 1440px) {
     
+   .media p {
+    width: 35%;
 
-    .footer_media {
-        display: flex;
-    }
+   }
+   
 
     .input {
         display: flex;

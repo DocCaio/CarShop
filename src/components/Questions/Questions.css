@@ -1,93 +1,88 @@
 .large {
-    width: 100%;
-    border-radius: 10px;    
+  width: 100%;
+  border-radius: 10px;
 }
 
-.small {     
-    min-width: 270px;
-    border-radius: 10px;
-    border: 12px solid #FFF;
-    background: lightgray 50% / cover no-repeat, #D9D9D9;
+.small {
+  min-width: 270px;
+  border-radius: 10px;
+  border: 12px solid #FFF;
+  background: lightgray 50% / cover no-repeat, #D9D9D9;
 }
 
 .container {
-    background-color: hsl(0, 0%, 100%);        
-    border-radius: 10px;
-    padding: 40px;     
-    
-  }
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 40px;
 
-  
+}
 
-  .card {
-    width:100%;  
-  }
 
-  .title {
-    display: inline-flex;
-    gap: 0.5rem;
-  }
-  
+
+.card {
+  width: 32.5rem;
+}
+
+.title {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
 
 
 
 .container .item {
-    background-image: url('/public/img/add.svg');
-    background-repeat: no-repeat;
-    background-position:right 0 top;
-    cursor: pointer;
-    border-bottom: 1px solid hsl(275, 100%, 97%);    
-  }
-  
-  .container .item.active {
-    background-image: url('/public/img/minus.svg');
-    background-repeat: no-repeat;
-    
-  }
-  
-  .item .question {
-    font-weight: 600;
-    font-size: 18px;
-    margin: 20px 0;
-    transition: 0.2s ease;
-    margin-bottom: 20px;
-  }
-  
-  .item .question:hover {
-    color: #AA205E;
-  }
-  
-  .item .answer {
-    color: grey;
-    display: none;
-    margin-bottom: 20px;
-  }
-  
-  .item.active .answer {
-    display: block;
-  }
+  background-image: url('/public/img/add.svg');
+  background-repeat: no-repeat;
+  background-position: right 0 top;
+  cursor: pointer;
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+}
 
-  @media (min-width: 1440px) {
+.container .item.active {
+  background-image: url('/public/img/minus.svg');
+  background-repeat: no-repeat;
+
+}
+
+.item .question {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 20px 0;
+  transition: 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.item .question:hover {
+  color: #AA205E;
+}
+
+.item .answer {
+  color: grey;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.item.active .answer {
+  display: block;
+}
+
+@media (min-width: 1440px) {
 
 
   .container_main {
-    display: flex; 
-    justify-content: space-around;    
-    gap: 1rem; 
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
   }
 
-  .card {
-    width: 32.5rem;
-  }
-  
- 
+
+
 
   .answer {
     min-width: 50%;
   }
 
 
-  
+
 }
-  
-  

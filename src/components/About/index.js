@@ -5,15 +5,17 @@ const About = () => {
 
         <main>
             <section className='about'>
-           
-          <figure className='main-car'>
 
-            <img src="./img/main-car.png" alt="foto de um carro"/>
+                <div className='main'>
+           
+            <div className='about_img'>
+               <img src="./img/main-car.png" alt="foto de um carro"/>  
+            </div>     
             
-        </figure > 
+       
 
             <div className='about_us'>
-            <img className='component' src="./img/component.svg" alt="foto de um carro"/>
+            <img className='about_us_icon' src="./img/component.svg" alt="foto de um carro"/>
             <small>About us</small>
             <h2>Our Company Overview</h2>
             <p>
@@ -51,7 +53,7 @@ const About = () => {
                     </div>
            
                     </div>
-            
+            </div>
 
             </section>
         </main>

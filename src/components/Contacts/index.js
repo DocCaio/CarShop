@@ -7,6 +7,10 @@ const Contacts = () => {
         <footer className='footer'>
         <section className='footer_media'>
 
+<div className='top'>
+
+
+
             <div className='media'>      
             <img className='logo'  src="./img/logo.png" alt="foto de um carro"/>
                 <p>
@@ -22,12 +26,16 @@ const Contacts = () => {
                 </div>
 
                 <div className='email'>
-                <img className='email_img'  src="./img/footer/sms.svg" alt="foto de um carro"/>
-            <span className='email_sms'>
-            
+
+                <div className='email_img'>
+                <img  src="./img/footer/sms.svg" alt="foto de um carro"/>
                 <h3>Enter Your Email</h3>
+                </div>
+
+                <div className='email_sms'>            
+               
                 <span>Our colleagues will contact you soon</span>
-            </span>
+                 </div >
 
             <div className='input'>
             <input className='submit' type="text" placeholder='Enter Email'></input>
@@ -36,11 +44,6 @@ const Contacts = () => {
 
 
          </div>
-
-         </div>
-
-
-
          <div className='list'>
                 <h4>Product Category</h4>
                 <ul>
@@ -78,6 +81,12 @@ const Contacts = () => {
                  Allure tower, unit:384 Avcilar/Istanbul
                 </span>               
             </div>
+
+         </div>
+
+         </div>
+
+     
           
          
             

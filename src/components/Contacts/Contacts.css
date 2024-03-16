@@ -79,12 +79,21 @@ span {
 }
 
 @media (min-width: 1440px) {
-    
-   .media p {
-    width: 35%;
 
+   .top {
+    display: flex;
    }
-   
+
+    
+    .media p {
+        width: 35%;
+
+    }
+
+    .email_img {
+        display: inline-flex;
+    }
+
 
     .input {
         display: flex;
@@ -92,8 +101,8 @@ span {
     }
 
     .rights {
-       display: flex;
-       justify-content: center;
+        display: flex;
+        justify-content: center;
     }
 
 }

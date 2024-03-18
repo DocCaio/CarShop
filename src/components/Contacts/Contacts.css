@@ -84,6 +84,16 @@ span {
     display: flex;
    }
 
+   .teste {
+    display: flex;
+    gap: 16px;
+   }
+
+   .list {
+    display: block;
+    gap: 16px;
+   }
+
     
     .media p {
         width: 35%;

@@ -44,6 +44,9 @@ const Contacts = () => {
 
 
          </div>
+
+         <div className='teste'>
+
          <div className='list'>
                 <h4>Product Category</h4>
                 <ul>
@@ -81,6 +84,7 @@ const Contacts = () => {
                 University neighborhood, Civan Alley, No:1,
                  Allure tower, unit:384 Avcilar/Istanbul
                 </span>               
+            </div>
             </div>
 
          </div>

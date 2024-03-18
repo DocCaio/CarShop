@@ -4,7 +4,18 @@ const Banner = () => {
     return (
         <header className='banner'>
             <nav>
-
+            <img className='logo'  src="./img/logo.png" alt="foto de um carro"/>
+            <div className='links'>
+                <ul>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Pictures & stories</li>
+                    <li>About us</li>
+                    <li>Products</li>
+                    
+                    
+                </ul>
+            </div>
             </nav>
 
             <section className='container_text'>

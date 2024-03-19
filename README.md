@@ -1,6 +1,6 @@
 # CarShop
 
-Spotify-clone , this website streaming.
+A web site where you can buy a car.
 
 ## Technologies used
 
